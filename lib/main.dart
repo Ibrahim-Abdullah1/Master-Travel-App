@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:master_travel_app/pages/user_main.dart';
 import 'package:master_travel_app/pages/welcome_page.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Master Travel App",
-      home: WelcomePage(),
+      home: UserMain(),
       debugShowCheckedModeBanner: false,
     );
   }
